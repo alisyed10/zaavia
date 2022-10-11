@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zaavya</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="vendors/animate/animate.min.css" rel="stylesheet">
+  <link href="vendors/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="vendors/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="vendors/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" href="http://www.zaavya.com/favicon.ico">
+
+
+</head>
+
+<body>
+  <script>
+    var HtmlWebpackPlugin = require('html-webpack-plugin');
+    var path = require('path');
+
+    module.exports = {
+      entry: 'index.js',
+      output: {
+        path: path.resolve(__dirname, './dist'),
+        filename: 'index_bundle.js'
+      },
+      plugins: [new HtmlWebpackPlugin()]
+    };
+  </script>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#home" class="scrollto"><img src="img/logo-grey.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Solutions</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!--___Home Section___ -->
+  <section id="home" class="clearfix">
+
+    <div class="container">
+
+
+      <section class="slider-section">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+
+
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="welcome-info row">
+                <div class="col-lg-6">
+                  <h2>Build modern data platforms.
+                    Drive actionable intelligence. 
+                    
+                  </h2>
+                  <p>Unify diverse data from disparate sources to eliminate silos, improve data quality,
+                     accelerate integrations, and develop a data-driven culture.</p>
+                </div>
+                <div class="col-lg-6">
+                  <!-- <img src="img/welcome.png" class="img-fluid" alt=""> -->
+                  <img src="img/home-illus.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="welcome-info row">
+                <div class="col-lg-6">
+                  <h2>Accelerate cloud-adoption.
+                    Increase agility and reduce cost.
+                    
+
+                  </h2>
+                  <p>Develop cloud-based applications using modern architectures. 
+                    Migrate on-prem workloads to cloud storage or databases.</p>
+                </div>
+                <div class="col-lg-6">
+                  <!-- <img src="img/welcome.png" class="img-fluid" alt=""> -->
+                  <img src="img/home-illus2.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="welcome-info row">
+                <div class="col-lg-6">
+                  <h2>Modernize your technology landscape. 
+                    Use data to drive digital transformation. 
+                    
+                  </h2>
+                  <p>Leverage digital advances such as process automation, modern data management,
+                     integration, and analytics to maximize value of your digital initiatives</p>
+                </div>
+                <div class="col-lg-6">
+
+                  <img src="img/home-illus.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- Previous & Next -->
+            <!-- <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only"></span>
+		</a> -->
+            <!-- <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only"></span>
+		</a> -->
+          </div> <!-- End of Carousel -->
+      </section> <!-- End of Slider -->
+    </div>
+  </section>
+  <!--___Home Section___ -->
+
+  <main id="main">
+
+
+
+    <!--==========================
+      Benefits Section
+    ============================-->
+    <section id="benefits">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Smart Data Platform
+            <br>
+            Master Plus Operational Data Hub
+          </h3>
+          <p class=" width-75">
+            Leverage Zaavya’s cloud-native serverless platform as
+             an accelerator to modernize all your data management needs 
+          </p>
+        </header>
+
+
+        <div class="row about-extra">
+          <div class="col-lg-12 wow fadeInUp">
+            <img src="img/smart-data-w.png" class="img-fluid" alt="">
+          </div>
+
+
+          <div class="icon-box wow fadeInUp col-lg-4 col-xs-12">
+            <h4 class="title">Unified Data Hub</h4>
+            <p class="description">Consolidate fragmented data from a variety of sources to create a single version of truth. 
+               Ingest and harmonize customer, product, or any other master data entity
+               and stitch it with operational data like customer interactions, sales and inventory to commoditize data access.
+
+            </p>
+          </div>
+          <div class="icon-box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay="0.2s">
+            <h4 class="title">Business Workflows </h4>
+            <p class="description">Use digital workflows to automate and enhance collaboration and coordination across cross-functional 
+              teams for data management.</p>
+
+          </div>
+          <div class="icon-box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay="0.4s">
+            <h4 class="title">Data Quality</h4>
+            <p class="description">Ensure data quality using profiling tools and automated rules to check data validity,
+               completeness, and integrity.</p>
+
+          </div>
+          <div class="icon-box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay="0.6s">
+            <h4 class="title">Data Governance</h4>
+            <p class="description">Enforce policies for effective governance by defining security, processes, roles and
+              responsibilities for data authoring, access and sharing.</p>
+
+          </div>
+          <div class="icon-box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay="0.8s">
+            <h4 class="title">Data Integration</h4>
+            <p class="description">Share clean, and accurate information with every user, application, and process.
+                Federate big data and empower real-time application integration with rich APIs.  </p>
+
+          </div>
+          <div class="icon-box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay="1s">
+            <h4 class="title">Data Services</h4>
+            <p class="description">Accelerate new application development by leveraging the platform to provide
+               flexible and scalable data storage capabilities </p>
+
+          </div>
+
+          <!-- <div class="icon-box wow fadeInUp col-lg-4 col-xs-12" data-wow-delay="0.4s">
+                <h4 class="title"><a href="" >Data Platform as an Accelerator</a></h4>
+                <p class="description">Utilize Zaavya’s Smart Data Platform to unify critical data from variety of source
+                  into a single version of truth that is shared across enterprise. Automate complex business processes and
+                  employ advanced analytics to serve you with timely, actionable insights that help in reducing costs and
+                  improving profits.
+                </p>
+              </div> -->
+
+        </div>
+        <!-- <div class="row about-extra">
+            <div class="col-lg-6 col-md-6 wow fadeInUp order-1 order-lg-2">
+              <img src="img/about-extra-2-n.svg" class="img-fluid" alt="">
+            </div>
+  
+            <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+              <h4 class="clr-blck">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+                print, graphic or web
+                designs.</h4>
+              <p class="clr-blck">
+                Opportunities for disruption using SaaS and on-demand platforms abound. Meanwhile, most businesses have
+                tons of data that isn’t carrying its weight. We bridge your ideas and strategies into real solutions,
+                leveraging stovepipes, legacy or on-premise systems. We master disparate or error-prone data sources.
+                We help optimize operations and reporting to serve you with timely, actionable insights that improve your
+                sales and profits. </p>
+            </div>
+  
+          </div> -->
+      </div>
+
+
+
+      </div>
+    </section><!-- #Benefits -->
+
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="bg-white">
+      <div class="container">
+
+        <header class="section-header ">
+          <h3 class="clr-blck">Scale up Agility and Adaptability </h3>
+          <p class="clr-blck-lite width-70">Deliver cloud-native solutions to accelerate innovation and business value
+            with our professional services
+          </p>
+        </header>
+
+        <div class="row spacing-md">
+
+          <div class="col-md-6 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="cloud-native"></span>
+                <h4 class="title">Cloud-native application development</h4>
+
+              </div>
+              <p class="description clr-blck-lite">Build new applications either standalone or
+                 requiring integration with existing SaaS and on-prem systems. 
+                Automate processes utilizing digital workflows to enhance collaboration and operational efficiencies</p>
+            </div>
+          </div>
+          <div class="col-md-6 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="modernize"></span>
+                <h4 class="title">Modernize Application & Data Integration
+                </h4>
+              </div>
+
+              <p class="description clr-blck-lite">Increase agility by breaking down monolithic legacy applications into loosely coupled cloud-based microservices.
+                 Develop clean and secure APIs to empower fast, flexible, and simplified app and data integrations.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="data-catalog"></span>
+                <h4 class="title">Data Catalog – Metadata Management</h4>
+
+              </div>
+              <p class="description clr-blck-lite">Discover what data resides where in your organization. 
+                 Create an inventory of your all data assets by crawling and scanning data repositories, and extracting schema information.
+                  Generate a fully searchable universal glossary of all metadata elements.   </p>
+            </div>
+          </div>
+          <div class="col-md-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="data-profiling"></span>
+                <h4 class="title">Data Profiling & ELT </h4>
+
+              </div>
+              <p class="description clr-blck-lite">Assess quality of your existing data across various sources. 
+                 Get metrics on data duplication, consistency, accuracy, integrity and completeness.  Define automated pipelines for extracting,
+                 storing, processing, cleaning and moving of data from source to destination systems.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="data-analytics"></span>
+                <h4 class="title">Advanced Data Analytics </h4>
+
+              </div>
+              <p class="description clr-blck-lite">Build cloud-native data warehouse and visualization solutions to gain
+                real-time
+                insights,
+                improve decision making, and accelerate innovation.</p>
+            </div>
+          </div>
+          <div class="col-md-6 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="data-service"></span>
+                <h4 class="title">Data as a Service</h4>
+
+              </div>
+              <p class="description clr-blck-lite">Enable rapid application development by quickly
+                 delivering secure and real-time API-based data services for managing and accessing critical data</p>
+            </div>
+          </div>
+          <div class="col-md-6 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="serverless"></span>
+                <h4 class="title">Serverless Computing</h4>
+
+              </div>
+              <p class="description clr-blck-lite">Reduce operational and development cost by leveraging cloud-native serverless architectures
+                 that do not require any provisioning of servers and provide on-demand scalability.</p>
+            </div>
+          </div>
+          <div class="col-md-6 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><span class="ai"></span>
+                <h4 class="title">Machine Learning & AI</h4>
+              </div>
+              <p class="description clr-blck-lite">Use machine and deep learning tools to identify data trends and patterns
+                 to discover actionable insights</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Smart Data Section
+    ============================-->
+    <section id="smartData">
+      <div class="container">
+        <div class="row smart-data-section">
+          <div class="col-lg-5">
+            <header class="section-header left-col-header">
+              <h3>Deliver a Single View of Trusted Data</h3>
+            </header>
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+
+
+              <div class="col-md-6 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box asc-clr1">
+                  <div class="icon"><span class="consolidate"></span></div>
+                  <h4 class="title"> Consolidate</h4>
+                  <p class="description">Acquire data from various sources to create a single version of truth.
+                     The platform streamlines data ingestion for large data volumes using flexible and scalable data pipelines.</p>
+                </div>
+              </div>
+              <div class="col-md-6 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box asc-clr2">
+                  <div class="icon"><span class="harmonize"></span></div>
+                  <h4 class="title ">Harmonize</h4>
+                  <p class="description">Automate complex business processes enhance team’s collaboration, data stewardship and governance.
+                     Enrich, validate, cleanse, and standardize raw data to ensure accuracy, completeness and integrity.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                <div class="box asc-clr3">
+                  <div class="icon"><span class="analyze"></span></div>
+                  <h4 class="title"> Analyze</h4>
+                  <p class="description">Extract new value and drive actionable insights for business teams by curating clean datasets.
+                     Implement advanced analytics for informed decision-making using ML, forecasting, and visualizations. 
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                <div class="box asc-clr4">
+                  <div class="icon"><span class="share"></span></div>
+                  <h4 class="title">Share</h4>
+                  <p class="description">Use advanced querying and rich APIs to increase real-time data accessibility.
+                      Ensure success of ML & AI initiatives by utilizing trusted high-quality data   </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+
+    <!--==========================
+      Smart Data Section
+    ============================-->
+    <section id="smartDataBenefitListing" class="bg-white">
+      <div class="container">
+        <div class="row smart-data-section smart-data-benefit-listing">
+          <header class="section-header">
+            <h3 class="clr-blck">Benefits of Smart Data Platform</h3>
+          </header>
+          <div class="col-lg-12 spacing-md">
+            <div class="row">
+
+              <div class="col-md-5 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box">
+                  <h4 class="title">Manage any data, any format </h4>
+                  <ul class="left-listing">
+                    <li>
+                      <p>
+                        CSV, xml, json and others, structured or unstructured, real-time or batch
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Operational Data
+
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Meta-data
+
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Reference Data
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Multi-domain Master Data
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Hierarchical Data
+                      </p>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="col-md-2 wow bounceInUp seperator-section" data-wow-duration="1.6s">
+                <span class="left-seperator"></span>
+                <span class="right-seperator"></span>
+              </div>
+              <div class="col-md-5 wow bounceInUp" data-wow-duration="1.8s">
+                <div class="box">
+                  <h4 class="title">Smart Data Platform key features </h4>
+                  <ul class="right-listing">
+                    <li>
+                      <p>
+                        No software or hardware cost to purchase and no licensing fee.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Low cost of implementation
+
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Faster time to market
+
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        High performance, availability, and on-demand scalability
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Serverless architecture means usage-based cloud subscription pricing
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Full maintenance and support available
+                      </p>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" class="">
+      <div class="container">
+        <header class="section-header">
+          <h3>About Zaavya</h3>
+          <p>
+
+            Cloud adoption has become essential for growth and innovation. 
+              Meanwhile, most organizations are struggling with vast volumes of data that remain siloed,
+               dark, ungoverned and unused for decision making.  Zaavya’s modern data platform, prepackaged 
+               solutions and services empower you to accelerate business growth and innovation with agility.
+               Zaavya means reaching a place of agreement. And that’s our mission. To see you arrive at your
+                happy place faster with less risk.
+
+          </p>
+        </header>
+        <div class="about-container spacing-md">
+          <div class=" content order-lg-1 order-2 row">
+
+            <div class=" wow fadeInUp  col-lg-4 col-xs-12">
+              <div class="icon-box">
+                <div class="icon"><span class="cloud-native"></span></div>
+                <h4 class="title">Cloud-native Development</h4>
+                <p class="description">Bridge your ideas and strategies into real solutions by developing 
+                  tailor made cloud-native applications.  
+                </p>
+              </div>
+            </div>
+
+            <div class=" wow fadeInUp  col-lg-4 col-xs-12" data-wow-delay="0.2s">
+              <div class="icon-box">
+
+                <div class="icon"><span class="modernize"></span></div>
+                <h4 class="title ">Modernize Data Management</h4>
+                <p class="description">
+                  Use Zaavya’s prebuilt cloud-native solutions to maximize your data leverage for better business outcomes</p>
+              </div>
+            </div>
+
+            <div class=" wow fadeInUp col-lg-4 col-xs-12" data-wow-delay="0.4s">
+              <div class="icon-box">
+                <div class="icon"><span class="data-accelerator"></span></div>
+                <h4 class="title">Data Platform as an Accelerator</h4>
+                <p class="description"> Utilize Zaavya’s Smart Data Platform to deliver a unified trusted view of all your critical data </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section><!-- #about -->
+
+
+    <!--==========================
+      Set Us apart Section
+    ============================-->
+    <section id="setUsApart" class="bg-white">
+      <div class="container">
+        <header class="section-header spacing-md">
+          <h3 class="clr-blck">What sets us apart?</h3>
+          <p class="clr-blck-lite width-70">Geared to serve start-ups to large enterprises,
+             Zaavya is well-versed in working on initiatives of
+              any scale using best-in-class cloud-native technologies.</p>
+        </header>
+
+        <div class="about-container">
+          <div class="row spacing-md setus-apart-section ">
+
+
+            <div class=" wow fadeInUp  col-lg-4 col-xs-12" data-wow-delay="0.2s">
+              <div class="icon-box">
+
+                <div class="icon"><span class="expertise"></span>
+                  <h4 class="title clr-blck">Technical & Domain Expertise</h4>
+                </div>
+                <p class="description clr-blck-lite">
+                  Deliver solutions are that are engineered by certified cloud practitioners along with former IBM 
+                  innovators who have 20+ years of experience in leading digital transformation and information management
+                   initiatives in large enterprises across various verticals.</p>
+              </div>
+            </div>
+            <div class=" wow fadeInUp  col-lg-4 col-xs-12" data-wow-delay="0.4s">
+              <div class="icon-box">
+
+                <div class="icon"><span class="time-market"></span>
+                  <h4 class="title clr-blck">Time to market</h4>
+
+                </div>
+                <p class="description clr-blck-lite">
+                  Our agile, cloud-native and open stack implementation approach
+                   helps you achieve your business goals and strategies 
+                   faster with modern tailored technology solutions.</p>
+              </div>
+            </div>
+            <div class=" wow fadeInUp  col-lg-4 col-xs-12" data-wow-delay="0.6s">
+              <div class="icon-box">
+
+                <div class="icon"><span class="lower-cost"></span>
+                  <h4 class="title  clr-blck">Lower Cost</h4>
+                </div>
+                <p class="description clr-blck-lite">
+                  Since you use our open stack and cloud subscription-based solutions, 
+                  there are no licensing fees or hardware cost.  In addition,
+                   utilizing our on-shore & off-shore services model helps you arrive at a practical,
+                   flexible solution faster, at lower costs and with reduced risk.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Our Clients Section
+    ============================-->
+    <section id="ourClients" class="">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Our CLients</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.
+          </p>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <!-- <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/logo-9.png" class="img-fluid" alt="">
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!--==========================
+      Benefits Section
+    ============================-->
+    <section id="package-section" class="section-bg spacing-md">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="clr-blck">Packaged Solutions </h3>
+          <p class="clr-blck-lite width-75">
+            No need to buy separate software licenses, tools, subscriptions and implementation services.
+            Use our pre-packaged turnkey solutions that include:
+          </p>
+        </header>
+
+
+        <div class="row package-text">
+          <div class="col-lg-4 wow fadeInUp">
+          <h2>DevOps & Implementation Services.</h2>
+          </div>
+          <div class="col-lg-4 wow fadeInUp">
+          <h2>Cloud-native based serverless tools and pre-built accelerators,</h2>
+          </div>
+          <div class="col-lg-4 wow fadeInUp">
+          <h2>“Pay for what you use” based subscription charges in AWS or Azure</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="package-card">
+              <div class="heading">
+                <h4>
+                  Starter
+                </h4>
+                <h3>Data Discovery</h3>
+              </div>
+              <div class="content">
+                  <ul>
+                    <li>
+                      <p>
+                        Discover your data assets
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Extract schema definitions from various data sources or scan content in files  
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Generate a searchable master dictionary of all entities and data elements 
+                      </p>
+                    </li>
+              
+                  </ul>
+              </div>
+              <div class="footer">
+                <h5>Duration: 1 – 2 weeks</h5>
+                <a href="javascript:;" class="link-sec">
+                  Start now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="package-card">
+              <div class="heading">
+                <h4>
+                  Assessment
+                </h4>
+                <h3>Data Quality</h3>
+              </div>
+              <div class="content">
+                  <ul>
+                    <li>
+                      <p>
+                        Profile data to determine completeness, accuracy, consistency and integrity.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Use data visualization dashboards to view 
+                        results and various metrics
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Assess quality of your data assets.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Includes Data Discovery
+                      </p>
+                    </li>
+                
+                  </ul>
+              </div>
+              <div class="footer">
+                <h5>Duration: 2 – 4 weeks</h5>
+                <a href="javascript:;" class="link-sec">
+                  Start now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="package-card">
+              <div class="heading">
+                <h4>
+                  Transformation
+                </h4>
+                <h3>Data Integration and Migration</h3>
+              </div>
+              <div class="content">
+                  <ul>
+                    <li>
+                      <p>
+                        One time migration, or on-going integration in real-time or batch
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Publish data to any destination including data warehouses and data lakes
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Extract, load and transform data from any source
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Includes Data Quality
+                      </p>
+                    </li>
+                  
+                  </ul>
+              </div>
+              <div class="footer">
+                <h5>Duration: 4+ weeks</h5>
+                <a href="javascript:;" class="link-sec">
+                  Start now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="package-card">
+              <div class="heading">
+                <h4>
+                  Data-Driven
+                </h4>
+                <h3>Smart Data Platform</h3>
+              </div>
+              <div class="content">
+                  <ul>
+                    <li>
+                      <p>
+                        Rich APIs for both ingestion, publishing and data management
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Digital workflows for cross-team collaboration
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Master and Operational data management
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Unify diverse data from multiple sources into a single data hub
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Includes Data Integration and Data Quality
+                      </p>
+                    </li>
+                  </ul>
+              </div>
+              <div class="footer">
+                <h5>Duration: 12+ Weeks</h5>
+                <a href="javascript:;" class="link-sec">
+                  Start now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section><!-- #Packages -->
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="bg-white">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3 class="clr-blck">Contact Us</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="ion-ios-location-outline clr-blck"></i>
+                <p class="clr-blck">A108 Adam Street, NY 535022</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline clr-blck"></i>
+                <p class="clr-blck">helllo@zaavya.com</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="ion-ios-telephone-outline  clr-blck"></i>
+                <p class="clr-blck">+1 5589 55488 55</p>
+              </div>
+            </div>
+
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="https://peaceful-everglades-35083.herokuapp.com/" name="contactUs" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                      data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
+                    data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message" class="contact-form-submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+  <div class="success-status">
+    <P>Your message has been sent. Thank you</P>
+    <a  class="close-icon" onclick="removeToast();" href="javascript:;"></a>
+  </div>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Zaavya</h3>
+            <p>
+              Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web
+              designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have
+              scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
+
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore
+              legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright-section">
+        &copy; Copyright &nbsp; <b>Zaavya</b>&nbsp; All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendors-->
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/jquery/jquery-migrate.min.js"></script>
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendors/easing/easing.min.js"></script>
+  <script src="vendors/mobile-nav/mobile-nav.js"></script>
+  <script src="vendors/wow/wow.min.js"></script>
+  <script src="vendors/waypoints/waypoints.min.js"></script>
+  <script src="vendors/counterup/counterup.min.js"></script>
+  <script src="venors/owlcarousel/owl.carousel.min.js"></script>
+  <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+  <script src="vendors/lightbox/js/lightbox.min.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/main.js"></script>
+<script>
+    function removeToast(){
+    $('.success-status').fadeOut(2000); 
+ }
+</script>
+</body>
+
+</html>
